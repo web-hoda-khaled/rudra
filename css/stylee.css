@@ -1,0 +1,327 @@
+/* start genral css */
+*{
+   /* font-family: "Montserrat", sans-serif; */
+   font-family: "Nunito", sans-serif;
+}
+
+body{
+   overflow-y: hidden;
+
+}
+a{
+   text-decoration: none;
+}
+ul{
+   list-style: none;
+}
+::selection{
+   background-color: #ee8683;
+   color: #fff;
+}
+.btn{
+   border: 1px solid #fff;
+   color: #fff;
+   transition: all .5s;
+   -webkit-transition: all .5s;
+   -moz-transition: all .5s;
+   -ms-transition: all .5s;
+   -o-transition: all .5s;
+}
+.btn:hover{
+   border: 1px solid #fff;
+   background-color: #fff;
+   color: #000;
+}
+/* start heading */
+.heading h2{
+   color: #212529;
+   font-size: 2.5rem;
+}
+.heading p{
+   color: #6c757d;
+   font-size: 1rem;
+}
+/* end heading */
+
+/* end genral css */
+/* ***********************************start loading*********************************************** */
+.loading {
+   background-color: black;
+}
+.loading i {
+   color: #ee8683;
+}
+/* ***********************************end loading*********************************************** */
+/* ***********************************start nav*********************************************** */
+.navbar{
+   display: none;
+   box-shadow: 0 1px 8px 3px rgb(0 0 0 / 5%);
+}
+.navbar .navbar-brand{
+   font-size: 1.5rem;
+   font-weight: 800;
+   line-height: 2rem;
+   color: #fff;
+
+}
+
+.navbar .nav-item a{
+   font-size: 1rem;
+   font-weight: 700;
+   color: #fff;
+}
+.navbar-toggler:focus{
+   box-shadow: unset;
+   border: 0;
+}
+.navbar-toggler i{
+   color: #fff;
+}
+/* ***********************************end nav*********************************************** */
+/* ***********************************start header*********************************************** */
+header{
+   background-image: url(../images/background.jpg);
+   background-size: cover;
+   background-position: center;
+}
+.layer{
+   height: 100%;
+   background-color: rgba(0, 0, 0, .5);
+}
+.header-content{
+   display: none;
+   width: 50%;
+}
+.header-content h4{
+   font-size: 2rem;
+   font-weight: 600;
+   line-height: 2rem;
+   font-family: "Montserrat", sans-serif;
+}
+.header-content h1{
+   color: #fff;
+   font-size: 4rem;
+   font-weight: 700;
+}
+.header-content .typeMe{
+   color: #ee8683 !important;
+   font-size: 4rem;
+   font-weight: 700;
+   font-family: "Montserrat", sans-serif;
+}
+.header-content p{
+   color: #fff;
+   font-size: 1.25rem;
+   font-weight: 400;
+}
+/* ***********************************end header*********************************************** */
+/* ***********************************start about********************************************* */
+.about .figure{
+   border: 1px solid #b6bdc3;
+}
+.about-content h2{
+   color: #212529;
+   font-size: 2rem;
+   font-weight: 400;
+}
+.about-content h3{
+   font-family: "Montserrat", sans-serif;
+   color: #212529;
+   font-size: 1.7rem;
+   font-weight: 400;
+}
+.about-content .cloringMe{
+   color: #ee8683;
+   font-size: 1.7rem;
+   font-weight: 400;
+}
+.about-content  p{
+   color: #6c757d;
+   font-size: 1.3rem;
+   font-weight: 400;
+   /* display: none; */
+}
+.icon  ul li{
+   width: 50px;
+   height: 50px;
+   background-color:#ee8683 ;
+   border: 1px solid #fff;
+   border-radius: 50%;
+   -webkit-border-radius: 50%;
+   -moz-border-radius: 50%;
+   -ms-border-radius: 50%;
+   -o-border-radius: 50%;
+   transition: all .5s;
+   -webkit-transition: all .5s;
+   -moz-transition: all .5s;
+   -ms-transition: all .5s;
+   -o-transition: all .5s;
+}
+.icone{
+   font-size: 1.5rem;
+   color: #fff;
+   transition: all .5s;
+   -webkit-transition: all .5s;
+   -moz-transition: all .5s;
+   -ms-transition: all .5s;
+   -o-transition: all .5s;
+}
+.icon  ul li:hover{
+   background-color:#fff ;
+   border: 1px solid #ee8683;
+}
+.icon  ul li:hover .icone{
+   color: #ee8683;
+
+}
+
+/* ***********************************end about********************************************* */
+/* ***********************************start skill********************************************* */
+.progress-bar {
+   background-color: #ee8683;
+   transition: all 3s;
+   -webkit-transition: all 3s;
+   -moz-transition: all 3s;
+   -ms-transition: all 3s;
+   -o-transition: all 3s;
+}
+.heading-skill h2{
+   font-family: "Montserrat", sans-serif;
+   color: #212529;
+   font-size: 1.7rem;
+   font-weight: 400;
+}
+.skill-info h5{
+   font-family: "Montserrat", sans-serif;
+   color: #212529;
+   font-size: 1.15rem;
+   font-weight: 400;
+}
+/* ***********************************end  skill********************************************* */
+/* ***********************************start service********************************************* */
+#service{
+   overflow: hidden;
+   background-color: #F8F9FA;
+}
+.service-info{
+   border: 1px solid #d0d8df;
+}
+.service-hed{
+   color: #212529;
+   font-size: 1.7rem;
+   font-weight: 400;
+   position: relative;
+   display: inline-block;
+}
+.service-hed::after{
+   position: absolute;
+   top: 110%;
+   left: 50%;
+   content: "";
+   width: 20%;
+   height: 3px;
+   background-color: #ee8683;
+   transform:  translateX(-50%);
+   -webkit-transform:  translateX(-50%);
+   -moz-transform:  translateX(-50%);
+   -ms-transform:  translateX(-50%);
+   -o-transform:  translateX(-50%);
+   transition: all .5s;
+   -webkit-transition: all .5s;
+   -moz-transition: all .5s;
+   -ms-transition: all .5s;
+   -o-transition: all .5s;
+}
+.service-info:hover .service-hed::after{
+   width: 100%;
+
+}
+.service-info p{
+   color: #6c757d;
+   font-size: 1.15rem;
+   font-weight: 400;
+}
+/* ***********************************end service********************************************* */
+/* ***********************************start Freelance*********************************************  */
+.freelance {
+   overflow: hidden;
+}
+
+.but{
+   border: 0;
+   background-color: #ee8683;
+   color: #fff;
+}
+.but:hover{
+   border: 0;
+   background-color: #ee8683;
+   color: #fff;
+}
+/* ***********************************end Freelance*********************************************  */
+/* ***********************************start slider********************************************* */
+.slider{
+   background-color:#F8F9FA ;
+   overflow:  hidden;
+}
+.slider-info img{
+   width: 50px;
+   height: 100px;
+}
+.slider-info  p{
+   color: #6c757d;
+   font-size: 1.25rem;
+   font-weight: 400;
+   font-style: italic;
+}
+.slider-info .last-p{
+   font-size: .8rem;
+   font-weight: 300;
+}
+/* ***********************************end slider********************************************* */
+/* ***********************************start client********************************************* */
+#client{
+   overflow: hidden;
+}
+.card-wrapper {
+   padding-top: 15px;
+   padding-bottom: 15px;
+}
+/* ***********************************end client********************************************* */
+/* ***********************************start Contact********************************************* */
+.card-info h3{
+   color: #212529;
+   font-size: 1.7rem;
+   font-weight: 400;
+}
+
+.card-info p{
+   color: #6c757d;
+   font-size: 1.25rem;
+   font-weight: 400;
+}
+/* ***********************************end Contact********************************************* */
+/* ***********************************start footer********************************************* */
+footer{
+   background-color: #333333;
+}
+footer .icon ul li {
+   background-color: transparent;
+}
+footer .icon ul li a{
+   color: #fff;
+}
+footer .icon ul li:hover {
+   background-color: transparent;
+   border: 1px solid #fff;
+}
+footer .icon ul li:hover .icone{
+   color: #fff;
+}
+footer p{
+   color: #6c757d;
+   font-size: 1rem;
+   font-weight: 400;
+}
+/* ***********************************End footer********************************************* */
+
+

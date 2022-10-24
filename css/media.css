@@ -1,0 +1,91 @@
+/* ***********************************start header*********************************************** */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+.header-content{
+ width: 100%;
+}
+.header-content h1{
+ font-size: 2rem;
+}
+ .header-content .typeMe{
+  font-size: 2rem;
+}
+.header-content p{
+
+ font-size: 1rem;
+}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+ .header-content{
+  width: 100%;
+ }
+ .header-content h1{
+  font-size: 2.5rem;
+ }
+  .header-content .typeMe{
+   font-size: 2.5rem;
+ }
+ .header-content p{
+ 
+  font-size: 1.1rem;
+ }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+ .header-content{
+  width: 75%;
+ }
+ .header-content h1{
+  font-size: 3rem;
+ }
+  .header-content .typeMe{
+   font-size: 3rem;
+ }
+ .header-content p{
+ 
+  font-size: 1.15rem;
+ }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+ .header-content{
+  width: 75%;
+ }
+ .header-content h1{
+  font-size: 4rem;
+ }
+  .header-content .typeMe{
+   font-size: 4rem;
+ }
+ .header-content p{
+ 
+  font-size: 1.25rem;
+ }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+ .header-content{
+  width: 60%;
+ }
+ .header-content h1{
+  font-size: 4rem;
+ }
+  .header-content .typeMe{
+   font-size: 4rem;
+ }
+ .header-content p{
+  font-size: 1.25rem;
+ }
+}
+/* ***********************************end header*********************************************** */
+/* ***********************************start about********************************************* */
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px)  and (max-width: 1400px)  {
+  .about-content  p{
+    font-size: 1.05rem;
+ }
+ }
+/* ***********************************end about********************************************* */
